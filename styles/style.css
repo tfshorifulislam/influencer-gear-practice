@@ -7,8 +7,6 @@
 
 .poppins-font-family{
   font-family: "Poppins", sans-serif;
-  /* font-style: normal; */
-  /* font-weight: 400; */
 }
 
 /* shared style */
@@ -102,6 +100,7 @@ header{
     font-weight: 700;
     line-height: 70px;
     margin-bottom: 16px;
+    max-width: 574px;
 }
 
 .text-description{
@@ -109,6 +108,7 @@ header{
     font-weight: 600;
     line-height: 24px;
     margin-bottom: 16px;
+    max-width: 491px;
 }
 
 .hero-banner{
@@ -230,7 +230,7 @@ header{
 .feature-heading{
     font-size:2.375rem ;
     line-height:60px ;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 16px;
 }
 
@@ -241,3 +241,37 @@ header{
     margin-bottom: 16px;
 }
 
+/* footer related style */
+footer{
+    background-color: #0A0826;
+    padding: 50px 589px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.footer-copyright{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #D9DBE1;
+    margin-bottom: 8px;
+}
+
+.footer-copyright-2{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #D9DBE1;
+    margin-bottom: 17px;
+}
+
+.footer-icons{
+    justify-content: center;
+    gap: 16px;
+}
