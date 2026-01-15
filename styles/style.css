@@ -141,6 +141,7 @@ header{
 
 .sponsor-companies{
     justify-content: space-between;
+    max-width: 986px;
 }
 
 
