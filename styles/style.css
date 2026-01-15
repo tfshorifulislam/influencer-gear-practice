@@ -133,8 +133,64 @@ header{
     border-bottom: 2px solid;
     padding:35px;
     border-image: linear-gradient(to right, rgba(192, 204, 218, 0.1)10%, rgba(192, 204, 218, 0.6)60%, rgba(192, 204, 218, 0.1)100%)1;
+    margin-bottom: 100px;
 }
 
 .sponsor-companies{
     justify-content: space-between;
+}
+
+
+/* popular section related style */
+.popular{
+    max-width: 1147px;
+    margin: 0 auto;
+}
+.popular-heading{
+    justify-content: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 4.375rem;
+    margin-bottom: 1.875rem;
+}
+
+.popular-card{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-info{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 17px 15px;
+    max-width: 330px;
+}
+.card-info img{
+    max-width: 300px;
+    margin-bottom: 16px;
+}
+
+.card-heading{
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.card-price{
+    font-size: 1.5rem;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.rating{
+    color: #FB8200;
+    margin-bottom: 5px;
+}
+
+.rating-text{
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    
 }
