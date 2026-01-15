@@ -158,12 +158,15 @@ header{
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
 }
 
 .card-info{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding: 17px 15px;
-    max-width: 330px;
+    /* max-width: 330px; */
+    border-radius: 5px;
+
 }
 .card-info img{
     max-width: 300px;
@@ -192,5 +195,21 @@ header{
     line-height: 22px;
     font-weight: 700;
     letter-spacing: 0.1px;
-    
+}
+
+.card-description{
+    color: #787885;
+}
+
+
+.btn-secondary{
+    justify-content: flex-end;
+}
+.see-more{
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+    align-items: center;
+    gap:8px
 }
