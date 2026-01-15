@@ -125,4 +125,16 @@ header{
 }
 
 
+/* sponsor companies related style */
+.sponsor{
+    margin: 0 auto;
+    max-width: 1110px;
+    border-top:2px solid;
+    border-bottom: 2px solid;
+    padding:35px;
+    border-image: linear-gradient(to right, rgba(192, 204, 218, 0.1)10%, rgba(192, 204, 218, 0.6)60%, rgba(192, 204, 218, 0.1)100%)1;
+}
 
+.sponsor-companies{
+    justify-content: space-between;
+}
