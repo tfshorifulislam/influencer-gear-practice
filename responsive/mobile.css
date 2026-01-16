@@ -1,4 +1,5 @@
 @media screen and (max-width:576px){
+
 /* header related style */
 header{
     margin-bottom: 40px;
@@ -60,11 +61,10 @@ header{
 }
 
 .sponsor-companies{
-    display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    gap: 5px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -87,20 +87,31 @@ header{
 
 /* feature section related style */
 .feature{
-    gap: 30px;
-    padding: 50px 0;
+    
     flex-direction: column-reverse;
-    margin: 0 10px;
+    gap: 50px;
+    padding: 50px 20px;
+    width: 100%;
+
 }
 
 .feature-heading{
     text-align: center;
+    font-size:1.5rem ;
+    line-height:40px ;
+    
 }
 
 .feature-description{
     text-align: center;
+    
 }
 
+.feature img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
 
 .btn-join{
